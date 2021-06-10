@@ -20,6 +20,7 @@
 		B69A7078262DA4CF00A45879 /* CollectionViewreViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B69A7077262DA4CF00A45879 /* CollectionViewreViewTests.m */; };
 		B69A7083262DA4CF00A45879 /* CollectionViewreViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B69A7082262DA4CF00A45879 /* CollectionViewreViewUITests.m */; };
 		B6BC162E2671BEB600DCECE9 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BC162D2671BEB600DCECE9 /* HomePageViewController.swift */; };
+		B6BC16382672487A00DCECE9 /* BilibiliMainTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BC16372672487A00DCECE9 /* BilibiliMainTableView.swift */; };
 		B6EF2D8B2636898C008EF44B /* 443.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EF2D8A2636898C008EF44B /* 443.png */; };
 		B6EF2D912636C248008EF44B /* WaterFallFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = B6EF2D902636C248008EF44B /* WaterFallFlowLayout.m */; };
 		B6EF2D9A2636E887008EF44B /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6EF2D992636E887008EF44B /* TwoViewController.m */; };
@@ -74,6 +75,7 @@
 		B69A7084262DA4CF00A45879 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B6BC16242671B7FF00DCECE9 /* CollectionViewreView-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CollectionViewreView-Bridging-Header.h"; sourceTree = "<group>"; };
 		B6BC162D2671BEB600DCECE9 /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
+		B6BC16372672487A00DCECE9 /* BilibiliMainTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BilibiliMainTableView.swift; sourceTree = "<group>"; };
 		B6EF2D8A2636898C008EF44B /* 443.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 443.png; sourceTree = "<group>"; };
 		B6EF2D8F2636C248008EF44B /* WaterFallFlowLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WaterFallFlowLayout.h; sourceTree = "<group>"; };
 		B6EF2D902636C248008EF44B /* WaterFallFlowLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WaterFallFlowLayout.m; sourceTree = "<group>"; };
@@ -164,6 +166,7 @@
 		B69A705A262DA4C700A45879 /* CollectionViewreView */ = {
 			isa = PBXGroup;
 			children = (
+				B6BC16352672485000DCECE9 /* CosBilibili */,
 				B6BC161A2671B46500DCECE9 /* HomePage */,
 				B69A705B262DA4C700A45879 /* AppDelegate.h */,
 				B69A705C262DA4C700A45879 /* AppDelegate.m */,
@@ -173,8 +176,6 @@
 				B69A7062262DA4C700A45879 /* ViewController.m */,
 				B6EF2D982636E887008EF44B /* TwoViewController.h */,
 				B6EF2D992636E887008EF44B /* TwoViewController.m */,
-				B6EF2DA726372E72008EF44B /* ThreeViewController.h */,
-				B6EF2DA826372E72008EF44B /* ThreeViewController.m */,
 				B6EF2DAD2637A46A008EF44B /* ThreeCollectionViewWaterFallFlowLayout.h */,
 				B6EF2DAE2637A46A008EF44B /* ThreeCollectionViewWaterFallFlowLayout.m */,
 				B6EF2D9E2636EBD4008EF44B /* TestCollectionViewCell.h */,
@@ -216,6 +217,24 @@
 				B6BC162D2671BEB600DCECE9 /* HomePageViewController.swift */,
 			);
 			path = HomePage;
+			sourceTree = "<group>";
+		};
+		B6BC16352672485000DCECE9 /* CosBilibili */ = {
+			isa = PBXGroup;
+			children = (
+				B6BC16362672486200DCECE9 /* View */,
+				B6EF2DA726372E72008EF44B /* ThreeViewController.h */,
+				B6EF2DA826372E72008EF44B /* ThreeViewController.m */,
+			);
+			path = CosBilibili;
+			sourceTree = "<group>";
+		};
+		B6BC16362672486200DCECE9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B6BC16372672487A00DCECE9 /* BilibiliMainTableView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -409,6 +428,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6BC16382672487A00DCECE9 /* BilibiliMainTableView.swift in Sources */,
 				B69A7063262DA4C700A45879 /* ViewController.m in Sources */,
 				B6EF2D912636C248008EF44B /* WaterFallFlowLayout.m in Sources */,
 				B69A705D262DA4C700A45879 /* AppDelegate.m in Sources */,
