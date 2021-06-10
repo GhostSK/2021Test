@@ -54,7 +54,7 @@ CGFloat const kSupplementaryViewKindHeaderPinnedHeight = 44.f;
     
     self.attributesArray = [NSMutableArray array];
     NSInteger numSections = [self.collectionView numberOfItemsInSection:0];
-    for (NSInteger section = 0; section < 1; section++) {
+    for (NSInteger section = 0; section < numSections; section++) {
         NSInteger numItems = [self.collectionView numberOfItemsInSection:section];
         for (NSInteger item = 0; item < numItems; item++) {
             NSIndexPath *indexPath = [NSIndexPath indexPathForRow:item inSection:section];
